@@ -25,7 +25,7 @@ function App() {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://mern-epcc.vercel.app/api/v1/user/getuser",
+          "https://vast-cyan-zipper.cyclic.app/api/v1/user/getuser",
           {
             withCredentials: true,
           }

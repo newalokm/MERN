@@ -14,7 +14,7 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: "https://mern-mpet.vercel.app",
+    origin: "https://mern-epcc.vercel.app/login",
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
